@@ -19,7 +19,8 @@ O   L
   S
 
     Exemplo:
-    >>># Testando motor
+
+    >>> # Testando motor
     >>> motor = Motor()
     >>> motor.velocidade
     0
@@ -38,7 +39,7 @@ O   L
     >>> motor.frear()
     >>> motor.velocidade
     0
-    >>># Testando Direção
+    >>> # Testando Direção
     >>> direcao = Direcao()
     >>> direcao.valor
     'Norte'
@@ -57,7 +58,7 @@ O   L
     >>> direcao.girar_a_esquerda()
     >>> direcao.valor
     'Oeste'
-        >>> direcao.girar_a_esquerda()
+    >>> direcao.girar_a_esquerda()
     >>> direcao.valor
     'Sul'
         >>> direcao.girar_a_esquerda()
@@ -81,7 +82,7 @@ O   L
     >>> carro.calcular_direcao()
     'Norte'
     >>> direcao.girar_a_direita()
-    carro.calcular_direcao()
+    >>> carro.calcular_direcao()
     'Leste'
     >>> direcao.girar_a_esquerda()
     >>> carro.calcular_direcao()
