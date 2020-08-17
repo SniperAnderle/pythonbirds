@@ -129,7 +129,7 @@ class Passaro(Ator):
         :param tempo_de_lancamento:
         :return:
         """
-        pass
+
 
 
 class PassaroAmarelo(Passaro):
